@@ -61,10 +61,8 @@ the ``example-application`` and all Zephyr modules will be cloned. Run the follo
 command:
 
 ```shell
-# initialize my-workspace for the example-application (main branch)
-west init -m https://github.com/zephyrproject-rtos/example-application --mr main my-workspace
-# update Zephyr modules
-cd my-workspace
+west init -m https://github.com/zephyrproject-rtos/example-application --mr main idc_workspace
+cd idc_workspace
 west update
 ```
 
