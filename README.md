@@ -61,7 +61,7 @@ the ``example-application`` and all Zephyr modules will be cloned. Run the follo
 command:
 
 ```shell
-west init -m https://github.com/zephyrproject-rtos/example-application --mr main idc_workspace
+west init -m https://github.com/panFrosty/iddasen-desk-controller --mr main idc_workspace
 cd idc_workspace
 west update
 ```
